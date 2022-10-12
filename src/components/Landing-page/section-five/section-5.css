@@ -1,0 +1,17 @@
+.section-5 {
+  color: var(--primary-light);
+}
+.sec5-link-btn {
+  color: var(--primary-light);
+  text-decoration: none;
+  font-weight: 800;
+  margin-top: 20px;
+}
+.sec5-link-btn:hover {
+  color: var(--primary-dark);
+}
+@media (max-width: 1000px) {
+  .section-5 {
+    padding: 20px;
+  }
+}

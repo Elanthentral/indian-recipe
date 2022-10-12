@@ -1,0 +1,18 @@
+.section-4 {
+  background-image: url("../../../assets/images/sec4-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 0;
+  font-weight: 400;
+}
+
+.sec4-content {
+  padding: var(--padding);
+  text-align: center;
+  color: var(--primary-light);
+}
+@media (min-width: 1200px) {
+  .section-4 {
+    padding: 100px;
+  }
+}

@@ -1,0 +1,10 @@
+.section-3 {
+  padding: var(--padding);
+  color: var(--primary);
+}
+/* .circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  background-color: var(--primary);
+} */

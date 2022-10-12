@@ -1,0 +1,100 @@
+:root {
+  --primary: #2a3b40;
+  --primary-dark: #036e8e;
+  --secondary: #ad6c12;
+  --info: #d4d8d9;
+  --primary-light: #304751;
+  --white: #ffffff;
+  --font-family: "Raleway";
+  --padding: 40px;
+}
+
+.header-container {
+  max-width: 1200px;
+}
+.text-orange {
+  color: var(--secondary);
+}
+.text-blue {
+  color: var(--primary-light);
+}
+h6,
+h5 {
+  font-weight: 700;
+}
+
+.nav-nav .nav-menu {
+  color: var(--white);
+  font-family: var(--font-family);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 700;
+  letter-spacing: 2;
+  font-size: 1.25rem;
+}
+
+.land-sec1 {
+  background-image: url("./assets/images/sec1-bg.png");
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  object-fit: cover;
+}
+.sec1-center {
+  background-color: rgba(255, 255, 255, 0.4);
+
+  padding: var(--padding);
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: auto;
+
+  text-align: center;
+}
+.cooke-text {
+  font-family: "Cookie";
+  font-weight: 400;
+  color: var(--primary-light);
+  text-align: center;
+
+  line-height: 0.5;
+}
+.sec-title {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.readmore-btn {
+  background-color: var(--white);
+  border-radius: 0;
+  font-weight: 700;
+  margin-top: 0;
+}
+.white-bg {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.bg-grey {
+  background-color: var(--info);
+}
+.primary-bg {
+  background-color: var(--primary);
+  color: var(--white);
+}
+@media (min-width: 1200px) {
+  .cooke-text {
+    font-size: 60px;
+  }
+  .title-text {
+    font-size: 50px;
+  }
+  .land-sec1 {
+    height: 650px;
+  }
+  .sec-title {
+    padding-top: var(--padding);
+  }
+}
