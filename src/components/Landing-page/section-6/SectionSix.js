@@ -96,7 +96,7 @@ function SectionSix() {
                 </div>
                 <div className="col-lg-4 col-12 col-md-6">
                   <div className="d-flex gap-3 align-items-center">
-                    <div className="circle-white">
+                    <div className="circle-white d-flex align-items-center">
                       <img src={sec66} className="sec6-img " />
                     </div>
                     <div className="">

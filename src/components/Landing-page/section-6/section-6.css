@@ -18,8 +18,8 @@
   color: var(--primary);
 }
 .circle-white {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 40px;
   border-radius: 50%;
   background-color: white;
   display: flex;
@@ -35,5 +35,9 @@
   }
   .content {
     padding: var(--padding);
+  }
+  .circle-white {
+    width: 90px;
+    height: 60px;
   }
 }
